@@ -18,7 +18,7 @@ The Jollibee contract simulates buying a chickenjoy in Jollibee where the establ
 
 1. **Deploy the Contract**:
    - Deploy using Remix IDE to your chosen network
-   - Default Balance: 500
+   - Default Balance: 250
    - If `chickenjoy` argument is greater than `balance`, `revert`
    - `assert` if `payment <= 200`
    - `require` input to be `more than or equal to 150`

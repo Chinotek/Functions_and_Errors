@@ -7,12 +7,12 @@ contract Jollibee {
     uint public balance = 250;
     uint public constant chickenjoy = 150;
     
-    function payFood(uint num) public payable {
+    function payFood(uint payment) public payable {
         if (chickenjoy > balance) {
             revert("you don't have enough money to buy a chickenjoy");
         }
-        assert(num <= 200);
-        require(num >= 150, "The cost of a chickenjoy is 150");
-        balance -= num;
+        assert(payment <= 200);
+        require(payment >= 150, "The cost of a chickenjoy is 150");
+        balance -= payment;
     }
 }

@@ -4,7 +4,7 @@ A Solidity smart contract that simulates buying a chickenjoy in Jollibee.
 
 ## Description
 
-The Jollibee contract simulates buying a chickenjoy in Jollibbe where the establishment doesn't have any change for more than 200 pesos:
+The Jollibee contract simulates buying a chickenjoy in Jollibee where the establishment doesn't have any change for more than 200 pesos:
 
 ## Getting Started
 
